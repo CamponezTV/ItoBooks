@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ito Books</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu" class="container__rotulo">
+        <span class="cabecalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Coletâneas</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Mangás</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Contos</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Livros</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Artes</a>
+        </li>
+      </ul>
+      <img src="img/oie_wobaQq9dESRf.png" alt="Logo da Ito Books" class="container__imagem">
+      <h1 class="container__titulo"><b class="container__titulo--negrito">Ito</b>Books</h1>
+    </div>
+
+    <ul class="opcoes">
+      <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+      <label for="opcoes-menu" class="opcoes__rotulo">
+        <li class="opcoes__item">Categorias</li>
+      </label>
+
+      <ul class="lista-menu">
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Coletâneas</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Mangás</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Contos</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Livros</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Artes</a>
+        </li>
+      </ul>
+      
+      <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+      <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
+    </ul>
+    
+    <div class="container">
+      <a href="#"><img src="img/image (3).png" alt="Favoritos" class="container__imagem container__imagem-transparente"></a>
+      <a href="#" class="container__link">
+        <img src="img/image (4).png" alt="Compras" class="container__imagem">
+        <p class="container__texto">Minha sacola</p>
+      </a>
+      <a href="#" class="container__link">
+        <img src="img/image (5).png" alt="Usuário" class="container__imagem">
+        <p class="container__texto">Meu perfil</p>
+      </a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">Encontre em nossa estante a sua próxima história favorita de Junji Ito!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será seu proximo Medo?">
+  </section>
+
+  <section class="carrosel">
+    <h2 class="carrosel__titulo">Mais Vendidos</h2>
+    <!-- Slider main container -->
+    <div class="carrosel__container">
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/oie_8182727Vz7QLBGW.jpg" alt="Tomie"></div>
+        <div class="swiper-slide"><img src="img/oie_8183011aL0TPCtW.jpg" alt="Uzumaki"></div>
+        <div class="swiper-slide"><img src="img/oie_8183132aGdY5TEN.jpg" alt="Gyo"></div>
+        <div class="swiper-slide"><img src="img/oie_8183710jGOBSWDo.jpg" alt="Frankenstein"></div>
+        <div class="swiper-slide"><img src="img/oie_8183745cY1RFG7c.jpg" alt="Remina"></div>
+        <div class="swiper-slide"><img src="img/oie_8183892SWXT9Gg.jpg" alt="Smashed"></div>
+      
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <div class="card">
+      <div class="card__descricao">
+        <div class="descricao">
+          <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+          <h2 class="descricao__titulo-livro">Tomie</h2>
+          <p class="descricao__texto">uma colegial chamada Tomie que possui uma personalidade perversa: usa de sua bela aparência para manipular suas vítimas, em sua maioria, homens. A finalidade da colegial é brincar com as pessoas ao ponto de tirá-las da sanidade e, por fim, terem a vontade de cortar a menina em pedaços.</p>
+        </div>
+        <img src="img/oie_lGXkXMbCo94Q.jpg" class="descricao__imagem" alt="Tomie">
+      </div>
+    <div class="card__botoes">
+      <ul class="botoes">
+        <li class="botões__items"><img src="img/image (3).png" alt="Favoritar Livro" class="card__icones"></li>
+        <li class="botões__items"><img src="img/image (4).png" alt="Adicionar no Carrinho de Compras" class=""></li>
+      </ul>
+      <a href="#" class="botoes__ancora">Saiba mais</a>
+    </div>
+  </div>
+  </div>
+  </section>
+  
+  <section class="carrosel">
+    <h2 class="carrosel__titulo">Últimos Lançamentos</h2>
+    <!-- Slider main container -->
+    <div class="carrosel__container">
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/oie_819211S7nHyLSO.jpg" alt="The Liminal Zone"></div>
+        <div class="swiper-slide"><img src="img/oie_81932s7Do1IAd.jpg" alt="Sensor"></div>
+        <div class="swiper-slide"><img src="img/oie_8191324TTI9cW0m.jpg" alt="Deserter"></div>
+        <div class="swiper-slide"><img src="img/oie_8191414EYbYxEFE.jpg" alt="Lovesickness"></div>
+        <div class="swiper-slide"><img src="img/oie_8183745cY1RFG7c.jpg" alt="Remina"></div>
+        <div class="swiper-slide"><img src="img/oie_8191726JCUbHoth.jpg" alt="Venus in the Blind Spot"></div>
+      
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <div class="card">
+      <div class="card__descricao">
+        <div class="descricao">
+          <img src="img/Estrelinhas.png" class="descricao__imagem1" alt="Estrelinhas de Nota">
+          <h3 class="descricao__titulo">Mangá do Mês</h3>
+          <h2 class="descricao__titulo-livro">Frankenstein</h2>
+          <p class="descricao__texto2">Vindo de uma família rica, ele ingressa em uma universidade na Alemanha onde começa a desenvolver seus estudos. O personagem logo se interessa em estudos relacionados com a própria vida e seus mistérios. O Doutor começa a desenvolver então seu terrível experimento</p>
+        </div>
+        <img src="img/oie_EPd4aKpVoQE1.jpg" class="descricao__imagem" alt="Frankenstein">
+      </div>
+    <div class="card__botoes">
+      <ul class="botoes">
+        <li class="botões__items"><img src="img/image (3).png" alt="Favoritar Livro" class="card__icones"></li>
+        <li class="botões__items"><img src="img/image (4).png" alt="Adicionar no Carrinho de Compras"></li>
+      </ul>
+      <a href="#" class="botoes__ancora">Saiba mais</a>
+      </div>
+    </div>
+    </div>    
+  </section>
+
+  <section class="topicos">
+    <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="topicos__lista">
+      <li class="topicos__item"><a href="#" class="topicos__link">Coletâneas</a></li>
+      <li class="topicos__item"><a href="#" class="topicos__link">Tomie</a></li>
+      <li class="topicos__item"><a href="#" class="topicos__link">Artes</a></li>
+      <li class="topicos__item"><a href="#" class="topicos__link">Últimos Lançamentos</a></li>
+      <li class="topicos__item"><a href="#" class="topicos__link">2022</a></li>
+      <li class="topicos__item"><a href="#" class="topicos__link">2007</a></li>
+      <li class="topicos__item"><a href="#" class="topicos__link">Mais Antigos</a></li>
+      <li class="topicos__item"><a href="#" class="topicos__link">Terror Psicológico</a></li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <div class="contato__descricao">
+      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+      <p class="contato__texto">Atualizações de mangás, novas coletâneas, promoções e outros.</p>
+      <input type="email" placeholder="Cadastre seu email" class="contato__email">
+    </div>
+  </section>
+
+  <hr />
+
+  <footer class="rodape">
+    <h2 class="rodape__titulo">Camponez</h2>
+    <p class="rodape__texto">
+Copyright © 2021 – Arthur Camponez – Todos os direitos reservados</p>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', { 
+      spaceBetween: 10, 
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        },
+    });
+  </script>
+</body>
+
+</html>
